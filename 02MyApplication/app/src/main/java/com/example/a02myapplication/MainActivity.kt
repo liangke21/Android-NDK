@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
      */
     external fun stringFromJNI(): String
 
+    external fun getString():String
+
     companion object {
         // Used to load the 'a02myapplication' library on application startup.
         init {

@@ -17,3 +17,8 @@ Java_com_example_a02myapplication_MainActivity_stringFromJNI(
 
     return env->NewStringUTF(pe.getString().c_str());
 }
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_example_a02myapplication_MainActivity_getString(JNIEnv *env, jobject thiz) {
+    // TODO: implement getString()
+}
