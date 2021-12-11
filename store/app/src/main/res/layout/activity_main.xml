@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:id="@+id/main_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="推荐"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/main_btn_search"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bab"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_bab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemTextAppearanceActive="@style/bottom_tab_title_active"
+        app:itemTextAppearanceInactive="@style/bottom_tab_title_inactive"
+        app:menu="@menu/menu_main" />
+
+</RelativeLayout>

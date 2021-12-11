@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_download_manager_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:width="20dp" />
+
+    <ImageView
+
+        android:id="@+id/item_download_manager_tv_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_download_manager_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#FF000000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/item_download_manager_tv_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right">
+
+        <TextView
+            android:id="@+id/item_download_manager_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="删除"
+            android:textColor="#DD0000" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/item_download_manager_btn_download"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="#FFFFFFFF"
+            android:elevation="0dp"
+            android:text="下载"
+            android:textColor="#2196F3"
+            app:cornerRadius="25dp"
+            app:strokeColor="#2196F3"
+            app:strokeWidth="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

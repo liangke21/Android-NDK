@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/main/res/layout/activity_main.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/main/res/layout/activity_setting.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/main/res/layout/activity_uninstall_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/main/res/layout/fragment_app_date.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/main/res/menu/menu_main.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_main.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_search.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_setting.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_start.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_uninstall_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/activity_update_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/dialog_main_download.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/fragment_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/fragment_app_date.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/fragment_app_download.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/fragment_first.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/fragment_main.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/item_empty_view.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/item_main_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/item_search_record.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/item_uninstall_app.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/layout/model_popup_search.xml" value="0.30027173913043476" />
+        <entry key="..\:/AndroidStudioProjects/Android NDK/store/app/src/main/res/menu/menu_main.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

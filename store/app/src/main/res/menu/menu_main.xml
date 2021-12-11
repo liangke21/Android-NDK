@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.muc.store.MainActivity">
+    <item
+        android:id="@+id/menu_main_main"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="推荐" />
+    <item
+        android:id="@+id/menu_main_app"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="应用中心" />
+    <item
+        android:id="@+id/menu_main_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="设置" />
+</menu>
