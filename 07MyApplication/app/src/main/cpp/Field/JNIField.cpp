@@ -9,13 +9,13 @@ extern "C"
 JNIEXPORT void JNICALL
 Java_com_muc_myapplication_JNIField_setField(JNIEnv *env, jobject thiz, jobject animal) {
 
-    jclass cls = env->GetObjectClass(animal);
+    jclass cls = env->GetObjectClass(animal); //获取实体类
 
-    jfieldID fID = env->GetFieldID(cls, "name", "Ljava/lang/String;");//获取字段
+    jfieldID fID = env->GetFieldID(cls, "name", "Ljava/lang/String;");//获取变量名称 和类型
 
-    jstring string = env->NewStringUTF("满大人");
+    jstring string = env->NewStringUTF("满大人"); //定义jstring参数
 
-    env->SetObjectField(animal, fID, string);
+    env->SetObjectField(animal, fID, string); //修改参数
 
 
 }

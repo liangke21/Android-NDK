@@ -16,7 +16,7 @@
 7.07My APPlication  JNI方法java字段
     1.实体类静态和非静态变量的操作
     2.this 静态变量和静态方法的操作
-
+8.08My APPlication 访问java方法
 
 ## 基本数据类型
 
@@ -73,3 +73,11 @@
 | `"Ljava/lang/String;"`  | `String`           |
 | `"[I"`                  | `int[]`            |
 | `"[Ljava/lang/Object;"` | `Object[]`         |
+
+## 函数
+
+| Method Descriptor         | Java Language Type        |
+| :------------------------ | :------------------------ |
+| `"()Ljava/lang/String;"`  | `String f();`             |
+| `"(ILjava/lang/Class;)J"` | `long f(int i, Class c);` |
+| `"([B)V"`                 | `String(byte[] bytes);`   |
