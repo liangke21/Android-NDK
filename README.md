@@ -16,7 +16,9 @@
 7.07My APPlication  JNI方法java字段
     1.实体类静态和非静态变量的操作
     2.this 静态变量和静态方法的操作
-8.08My APPlication 访问java方法
+8.08My APPlication 回调java方法
+   1.回调实体类方法
+   2.回调静态方法
 
 ## 基本数据类型
 
