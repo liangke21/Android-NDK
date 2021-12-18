@@ -19,6 +19,9 @@
 8.08My APPlication 回调java方法
    1.回调实体类方法
    2.回调静态方法
+9.09My APPlication 访问java方法
+10.10My APPlication jni线程访问java 接口
+
 
 ## 基本数据类型
 
