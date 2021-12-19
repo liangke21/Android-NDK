@@ -21,6 +21,7 @@
    2.回调静态方法
 9.09My APPlication 访问java方法
 10.10My APPlication jni线程访问java 接口
+11.11My APPlication 全局引用 局部引用 弱引用
 
 
 ## 基本数据类型
