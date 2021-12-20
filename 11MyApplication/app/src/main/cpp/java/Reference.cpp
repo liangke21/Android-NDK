@@ -45,6 +45,9 @@ Java_com_example_myapplication_jni_Quote_localReference(JNIEnv *env, jobject thi
     return static_cast<jstring>(env->NewObject(clazz, mid, str));
 
 }
+/*
+ * 弱引用
+ */
 extern "C"
 JNIEXPORT void JNICALL
 Java_com_example_myapplication_jni_Quote_weakApplication(JNIEnv *env, jobject thiz) {
