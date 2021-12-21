@@ -1,0 +1,14 @@
+//
+// Created by 13967 on 2021/12/21.
+//
+
+#ifndef MY_APPLICATION_CREATETHREAD_H
+#define MY_APPLICATION_CREATETHREAD_H
+
+
+class CreateThread {
+
+};
+
+
+#endif //MY_APPLICATION_CREATETHREAD_H
