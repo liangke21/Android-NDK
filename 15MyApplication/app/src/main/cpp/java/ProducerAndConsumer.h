@@ -1,0 +1,14 @@
+//
+// Created by 13967 on 2021/12/22.
+//
+
+#ifndef MY_APPLICATION_PRODUCERANDCONSUMER_H
+#define MY_APPLICATION_PRODUCERANDCONSUMER_H
+
+
+class ProducerAndConsumer {
+
+};
+
+
+#endif //MY_APPLICATION_PRODUCERANDCONSUMER_H
