@@ -24,6 +24,7 @@
 11.11My APPlication 全局引用 局部引用 弱引用
 12.12My APPlication 异常处理 异常抛出
 13.13My APPlication 创建线程 创建线程并传入参数  线程挂起返回参数
+14.14My APPlication 线程同步
 
 
 ## 基本数据类型
