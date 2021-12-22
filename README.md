@@ -5,7 +5,7 @@
    1.CMake的语法和实践
    2.在Kotlin中调用JNI的函数
 
-3.03My Application  动态注册  项目够失败
+3.03My Application  动态注册  
 
 4.04My Application  基本数据类型的转换
 
@@ -19,8 +19,8 @@
 8.08My APPlication 回调java方法
    1.回调实体类方法
    2.回调静态方法
-9.09My APPlication 访问java方法
-10.10My APPlication jni线程访问java 接口
+9.09My APPlication jni线程访问java 接口
+10.10My APPlication  访问java方法
 11.11My APPlication 全局引用 局部引用 弱引用
 12.12My APPlication 异常处理 异常抛出
 13.13My APPlication 创建线程 创建线程并传入参数  线程挂起返回参数

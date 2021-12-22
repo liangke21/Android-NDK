@@ -3,6 +3,7 @@ package com.muc.myapplication
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import com.muc.myapplication.databinding.ActivityMainBinding
 import com.muc.myapplication.load.JNIDyNamIcLoad
@@ -18,12 +19,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-             val jn = JNIDyNamIcLoad
+        val jn = JNIDyNamIcLoad()
 
         // Example of a call to a native method
         binding.sampleText.text = "helloWorld"
 
         binding.sampleText.setOnClickListener {
+            Log.d("动态注册", jn.stringFromJNI())
+            Log.d("动态注册", jn.sum(2, 3).toString())
 
 
         }

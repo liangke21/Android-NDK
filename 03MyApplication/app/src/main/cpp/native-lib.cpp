@@ -10,6 +10,7 @@ Java_com_muc_myapplication_MainActivity_stringFromJNI(
 }
 
 #define JAVA_CLASS "com/muc/myapplication/load/JNIDyNamIcLoad"
+
 jstring getMessage(JNIEnv *env, jobject /* this */) {
 
     return env->NewStringUTF("我是动态注册");
@@ -22,7 +23,7 @@ jint plus(JNIEnv *env, jobject /* this */, int x, int y) {
 
 static JNINativeMethod gMethod[] = {
         {"stringFromJNI", "()Ljava/lang/String;", (void *) getMessage},
-        {"sum", "(II)I", (void *) plus}
+        {"sum",           "(II)I",                (void *) plus}
 };
 
 int registerNativeMethods(JNIEnv *env, const char *name, JNINativeMethod *methods, jint nMethods) {
@@ -43,9 +44,9 @@ int registerNativeMethods(JNIEnv *env, const char *name, JNINativeMethod *method
 
 
 //动态注册
-JNIEXPORT int JNICALL JNI_OnLoad(JavaVM *vm, void *reserved) {
+extern "C" JNIEXPORT int JNICALL JNI_OnLoad(JavaVM *vm, void *reserved) {
     JNIEnv *env;
-    if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION_1_6 != JNI_OK)) {
+    if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION_1_6) != JNI_OK) {
         return JNI_FALSE;
     }
 
